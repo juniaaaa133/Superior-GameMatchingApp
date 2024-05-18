@@ -1,0 +1,47 @@
+.profile-main {
+    width:100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding:  20px;
+}
+.pro-info-ctn {
+    width:50%;
+    height: 550px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.pro-pfp-sec {
+    position: relative;
+    width:100%;
+    height: 270px;
+}
+.pro-cv-img{
+    width: 100%;
+    height: 72%;
+}
+.pro-pfp {
+    width:180px;
+    border-radius: 50%;
+    position: absolute;
+    left:20px;
+    top:0;
+    bottom:-80px;
+    margin: auto;
+    height: 180px;
+    border: solid #efefef8a 4px;
+}
+.pro-info-sec {
+    width:100%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.pro-ach-ctn {
+    width:40%;
+    height: 500px;
+    background-color: rgb(78, 125, 125);
+    border-radius: 5px;
+
+}

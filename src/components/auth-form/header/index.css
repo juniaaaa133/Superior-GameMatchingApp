@@ -1,0 +1,18 @@
+.ah {
+    display:flex ;
+    flex-direction: column;
+    gap:10px;
+    height: fit-content;
+    width:380px;
+    
+}
+
+@media (max-width: 1024px) {
+
+    .ah {
+    align-items: center;
+    margin-bottom: 50px;
+    width:90%;
+    text-align: center;
+}
+}
